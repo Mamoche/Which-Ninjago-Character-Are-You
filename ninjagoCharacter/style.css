@@ -1,0 +1,227 @@
+body {
+    background: linear-gradient(123deg, rgb(123, 123, 123), rgb(99, 199, 4), rgb(55, 155, 255));
+    height: 100mvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background: linear-gradient(143deg, red, blue, cyan, green, white, black);
+    color: rgb(46, 40, 40);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.question {
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 129px 300px;
+}
+#result,
+.subbmit,
+.color,
+.food,
+.subject,
+.habits,
+.morning,
+.dreamJob,
+.animal,
+.tvShows,
+.music,
+.sports {
+    background: rgb(145, 22, 22);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border-radius: 12px;
+    padding: 129px 150px;
+}
+
+#result {
+    display: none;
+}
+
+.colorbtn {
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+#Yellow {
+    background: yellow;
+    color: yellow;
+
+}
+
+#Blue {
+    background: blue;
+    color: blue;
+}
+
+#red {
+    background: red;
+    color: red;
+}
+
+#orange {
+    background: orange;
+    color: orange;
+}
+
+#green {
+    background: rgb(3, 174, 3);
+    ;
+    color: rgb(3, 174, 3);
+}
+
+#pink {
+    background: pink;
+    color: pink;
+}
+
+.colorbtn:hover {
+    padding: 15px 15px;
+}
+
+.foodbtn {
+    background: rgb(89, 85, 34);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.foodbtn:hover {
+    padding: 15px 15px;
+}
+
+.animalbtn {
+    background: rgb(255, 214, 214);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.animalbtn:hover {
+    padding: 15px 15px;
+}
+
+.subjectbtn {
+    background: rgb(255, 0, 0);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.subjectbtn:hover {
+    padding: 15px 15px;
+}
+
+.dreamJobbtn {
+    background: rgb(34, 145, 22);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.dreamJobbtn:hover {
+    padding: 15px 15px;
+}
+
+.habitsbtn {
+    background: rgb(99, 199, 4);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.habitsbtn:hover {
+    padding: 15px 15px;
+}
+
+.morningbtn {
+    background: rgb(5, 243, 255);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.morningbtn:hover {
+    padding: 15px 15px;
+}
+
+.tvShowsbtn {
+    background: rgb(233, 74, 69);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.tvShowsbtn:hover {
+    padding: 15px 15px;
+}
+
+.musicbtn {
+    background: rgb(199, 240, 211);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.musicbtn:hover {
+    padding: 15px 15px;
+}
+
+.sportsbtn {
+    background: rgb(0, 21, 255);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+.submit:hover,
+.sportsbtn:hover {
+    padding: 15px 15px;
+}
+
+.submit {
+    background: rgb(0, 225, 255);
+    cursor: pointer;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+img{
+    display: none;
+    border-radius: 12px;
+    
+}

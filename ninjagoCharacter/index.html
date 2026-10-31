@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Which Ninjago character are you ?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Which Ninjago character are you ?</h1>
+        <h4>Yet you'll have your answer after you answered al the questions of the quiz!!</h4>
+        <p>Warning: you have to answer to all the questions, and only the og team are here(Kai, Zane, Nya, Lloyd, Cole,
+            Jay)</p>
+    </div>
+    <div class="question">
+
+        <div class="color">
+            <h3>1)What's your favorite color: </h3>
+            <button class="colorbtn" id="Yellow">Yellow</button>
+            <button class="colorbtn" id="Blue">Blue</button>
+            <button class="colorbtn" id="red">red</button>
+            <button class="colorbtn" id="green">green</button>
+            <button class="colorbtn" id="orange">orange</button>
+            <button class="colorbtn" id="pink">pink</button>
+        </div>
+        <div class="food">
+            <h3>2)What's your favorite food: </h3>
+            <button class="foodbtn" id="pizza">Pizza</button>
+            <button class="foodbtn" id="Cake">Cake</button>
+            <button class="foodbtn" id="sushi">Sushi</button>
+            <button class="foodbtn" id="pasta">Pasta</button>
+            <button class="foodbtn" id="salade">Salade</button>
+            <button class="foodbtn" id="Tea">Tea</button>
+        </div>
+        <div class="habits">
+            <h3>3)What's your favorite habit: </h3>
+            <button class="habitsbtn" id="dancing">dancing</button>
+            <button class="habitsbtn" id="sports">Sports</button>
+            <button class="habitsbtn" id="gaming">Gaming</button>
+            <button class="habitsbtn" id="cooking">Cooking</button>
+            <button class="habitsbtn" id="traveling">Traveling</button>
+            <button class="habitsbtn" id="drawing">Drawing</button>
+        </div>
+        <div class="subject">
+            <h3>4)What's your favorite subject: </h3>
+            <button class="subjectbtn" id="math">Math</button>
+            <button class="subjectbtn" id="science">Science</button>
+            <button class="subjectbtn" id="history">History</button>
+            <button class="subjectbtn" id="art">Art</button>
+            <button class="subjectbtn" id="music">Music</button>
+            <button class="subjectbtn" id="physicalEducation">Physical Education</button>
+        </div>
+        <div class="morning">
+            <h3>5)Are you a morning person or a night owl ?</h3>
+            <button class="morningbtn" id="morning">Morning person</button>
+            <button class="morningbtn" id="night">Night owl</button>
+        </div>
+        <div class="dreamJob">
+            <h3>6)What's your dream job: </h3>
+            <button class="dreamJobbtn" id="doctor">Doctor</button>
+            <button class="dreamJobbtn" id="engineer">Engineer</button>
+            <button class="dreamJobbtn" id="artist">Artist</button>
+            <button class="dreamJobbtn" id="teacher">Teacher</button>
+            <button class="dreamJobbtn" id="athlete">Athlete</button>
+            <button class="dreamJobbtn" id="otherjob">Other</button>
+        </div>
+        <div class="animal">
+            <h3>7)What's your favorite animal: </h3>
+            <button class="animalbtn" id="dog">Dog</button>
+            <button class="animalbtn" id="cat">Cat</button>
+            <button class="animalbtn" id="bird">Bird</button>
+            <button class="animalbtn" id="fish">Fish</button>
+            <button class="animalbtn" id="rabbit">Rabbit</button>
+            <button class="animalbtn" id="chiken">Chicken</button>
+        </div>
+        <div class="tvShows">
+            <h3>8)What's your favorite tv show: </h3>
+            <button class="tvShowsbtn" id="Ninjago">Ninjago</button>
+            <button class="tvShowsbtn" id="Malcom">Malcom</button>
+            <button class="tvShowsbtn" id="Friends">Friends</button>
+            <button class="tvShowsbtn" id="TheBigBangTheory">The Big Bang Theory</button>
+            <button class="tvShowsbtn" id="Gumball">Gumball</button>
+            <button class="tvShowsbtn" id="OtherShows">Other</button>
+        </div>
+        <div class="music">
+            <h3>9)What's your favorite music genre: </h3>
+            <button class="musicbtn" id="pop">Pop</button>
+            <button class="musicbtn" id="rock">Rock</button>
+            <button class="musicbtn" id="hipHop">Hip Hop</button>
+            <button class="musicbtn" id="classical">Classical</button>
+            <button class="musicbtn" id="jazz">Jazz</button>
+            <button class="musicbtn" id="rap">Rap</button>
+        </div>
+        <div class="sports">
+            <h3>10)What's your favorite sport: </h3>
+            <button class="sportsbtn" id="soccer">Soccer</button>
+            <button class="sportsbtn" id="basketball">Basketball</button>
+            <button class="sportsbtn" id="tennis">Tennis</button>
+            <button class="sportsbtn" id="swimming">Swimming</button>
+            <button class="sportsbtn" id="running">Running</button>
+            <button class="sportsbtn" id="otherSports">Other</button>
+        </div>
+        <div class="subbmit">
+            <h2>Did you answered all the question ?</h2>
+            <button class="submit" id="submitBtn">Submit</button>
+        </div>
+    </div>
+    <div class="result" id="result">
+        <H1>Your ninjago character is: </H1>
+        <h2 id="playerCharacter"></h2>
+        <p id="description"></p>
+        <img width="500" height="600" src="assets/cole.jpeg" id="cole" alt="cole">
+        <img width="500" height="600" src="assets/jay.jpeg" id="jay" alt="jay">
+        <img width="500" height="600" src="assets/Kai.jpeg" id="kai" alt="kai">
+        <img width="500" height="600" src="assets/lloyd.jpeg" id="lloyd" alt="lloyd">
+        <img width="500" height="600" src="assets/nya.jpeg" alt="nya" id="nya">
+        <img width="500" height="600" src="assets/zane.jpeg" alt="zane" id="zane">
+        <img width="500" height="600" src="assets/dareth.jpeg" alt="dareth" id="dareth">
+        <div>
+            <h2>How much are you like the other character: </h2>
+              <canvas id="chance" width="500" height="500"></canvas>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
